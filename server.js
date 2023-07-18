@@ -1,7 +1,11 @@
-var express = require("express")
-var app = express()
-var port = process.env.port || 3000;
+var express = require("express");
+var app = express();
+var path = require("path");
+var port = process.env.PORT || 3000;
 
-app.listen(port,()=>{
-console.log("App listening to: "+port)
-})
+app.use(express.static(path.join(__dirname, "public")));
+app.use("/images", express.static(path.join(__dirname, "images")));
+
+app.listen(port, () => {
+    console.log("App listening to: " + port);
+});
