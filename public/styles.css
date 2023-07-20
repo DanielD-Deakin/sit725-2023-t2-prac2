@@ -2,11 +2,12 @@
 @font-face {
     font-family: 'SelfDeception'; 
     src: url('https://www.fontspace.com/self-deception-font-f41310') format('truetype');
-  }
+}
+
 @font-face {
     font-family: 'Satisfy'; 
-    src: '../fonts/Satisfy/Satisfy-Regular.ttf' format('truetype');
-  }
+    src: url('../fonts/Satisfy/Satisfy-Regular.ttf') format('truetype');
+}
 
 @import url('https://fonts.googleapis.com/css?family=Damion|Muli:400,600');
 
@@ -74,4 +75,8 @@
     margin-left: -50px;
     padding-right: 20px;
     font-style: italic;
+}
+
+.title-2 {
+    font-family: 'Satisfy';
 }

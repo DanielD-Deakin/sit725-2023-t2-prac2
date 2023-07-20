@@ -15,5 +15,7 @@
   },
   "author": "Daniel Dobreski",
   "license": "ISC",
-  "bugs": { "url": "https://github.com/DanielD-Deakin/sit725-2023-t2-prac2/issues" }
+  "bugs": {
+    "url": "https://github.com/DanielD-Deakin/sit725-2023-t2-prac2/issues"
+  }
 }
