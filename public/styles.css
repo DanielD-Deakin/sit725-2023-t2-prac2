@@ -1,7 +1,7 @@
 /* Importing new custom fonts */
 @font-face {
     font-family: 'SelfDeception'; 
-    src: url('https://www.fontspace.com/self-deception-font-f41310') format('truetype');
+    src: url('../fonts/self-deception-font/SelfDeceptionRegular-ALLWA.ttf') format('truetype');
 }
 
 @font-face {
@@ -32,8 +32,8 @@
 }
 
 .title-1 {
-    font-family: 'Copperplate Gothic';
-    font-size: 23px;
+    font-family: 'SelfDeception';
+    font-size: 55px;
     line-height: 1.5;
     margin: 0;
     padding-top: 15;
@@ -53,13 +53,14 @@
     width: 100%;
     margin: 0;
     padding-left: 80px;
+    margin: 15px;
 }
 
 .field-container {
     display: flex; 
     flex-direction: row; 
     justify-content: top; 
-    margin: 15px;
+    margin: 0px;
 }
 
 .result {
